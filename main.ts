@@ -670,6 +670,7 @@ namespace mooncar {
         ws2812b.sendBuffer(neopixel_buf, DigitalPin.P12)
     }
 
+    //% block
     //% weight=10
     //% data.defl="0"
     //% blockId="SENDDATA" block="Send data |%data"

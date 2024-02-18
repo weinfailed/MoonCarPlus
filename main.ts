@@ -669,4 +669,8 @@ namespace mooncar {
         }
         ws2812b.sendBuffer(neopixel_buf, DigitalPin.P12)
     }
+
+    export function sendData(data: string): void {
+        serial.writeLine(data);
+    }
 }

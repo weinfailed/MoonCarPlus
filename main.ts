@@ -671,7 +671,7 @@ namespace mooncar {
     }
 
     //% weight=10
-    //% block="Send data %data"
+    //% blockId="SENDDATA" block="Send data |%data"
     export function sendData(data: string): void {
         serial.writeLine(data);
     }
